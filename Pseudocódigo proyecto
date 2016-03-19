@@ -1,0 +1,24 @@
+﻿Inicio
+	Mostrar "Ingrese una nota del 1 al 20";
+	Leer 'n';
+		Condición = ¿Es (n>=19 and n<=20)? { Si es 'Sí':
+			Mostrar "Su nueva nota es A";
+		Si es 'No': {
+			Condición = ¿Es (n>=16 and n<=18)? {Si es 'Sí':
+				Mostrar "Su nueva nota es B";
+			Si es 'No' : {
+				Condición = ¿Es (n>13 and n<=15)? {Si es 'Si':
+					Mostrar "Su nueva nota es C";
+				Si es 'No' : {
+					Condición = ¿Es (n>=10 and n<=12)? {Si es 'Sí':
+						Mostrar "Su nueva nota es D";
+					Si es 'No' : {
+						Condición = ¿Es (n>=1 and n<=9)? {Si es 'Sí':
+							Mostrar "Su nueva nota es E";
+						Si es 'No' :
+						} 
+					}	
+				}
+			}
+		} 
+Final }
