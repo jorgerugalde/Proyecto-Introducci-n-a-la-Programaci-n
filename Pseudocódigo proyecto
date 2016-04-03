@@ -1,8 +1,12 @@
-Inicio
+﻿Inicio
 	Mostrar "Acontinuación se convertirán las notas numéricas del 1 al 20 a valores de la A a la E";
 	Mostrar "Ingrese una nota del 1 al 20";
 	Leer 'n';
-		Condición = ¿Es (n>=19 and n<=20)? { Si es 'Sí':
+	Mientras (n<=20 and n>=1);
+	Si es No; { 
+		Mostrar ("Por favor ingrese una nota entre el 1 y el 20");
+	Si es Si; {	
+	Condición = ¿Es (n>=19 and n<=20)? { Si es 'Sí':
 			Mostrar "Su nueva nota es A";
 		Si es 'No': {
 			Condición = ¿Es (n>=16 and n<=18)? {Si es 'Sí':
@@ -17,8 +21,8 @@ Inicio
 						Condición = ¿Es (n>=1 and n<=9)? {Si es 'Sí':
 							Mostrar "Su nueva nota es E";
 						Si es 'No' :
-						} 
-					}	
+						}
+					}
 				}
 			}
 		}
